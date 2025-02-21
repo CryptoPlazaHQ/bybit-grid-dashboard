@@ -156,7 +156,7 @@ graph TD
     C -->|Obtiene| D[APIs Externas]
     B -->|Gestiona| E[DatabaseManager]
     E -->|Persiste| F[(Base de Datos)]
-    F -->|Proporciona| G[Datos Históricos]
+    F -->|Proporciona| G[Entradas de Bots]
     C -->|Actualiza| H[Caché de Precios]
     B -->|Renderiza| I[Visualizaciones]
 ```
